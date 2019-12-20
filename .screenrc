@@ -1,0 +1,17 @@
+vbell off
+startup_message off
+scrollback 100000
+shell -$SHELL
+caption always "%{= kw}%-w%{= wk} %n %t %{-}%+w"
+rendition so =00
+bind j focus down
+bind k focus up
+bind l focus right
+bind h focus left
+altscreen on
+termcapinfo xterm 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+defbce on
+encoding utf8 utf8
+defencoding UTF-8
+defutf8 on
+set term=screen-256color
