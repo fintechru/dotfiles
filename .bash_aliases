@@ -17,6 +17,7 @@ alias gpo='git push origin'
 alias gm='git merge'
 alias gl='git log'
 function ghc() { git clone "git@github.com:$1" ;}
+function glc() { git clone "git@git.fintechru.org:$1" ;}
 
 alias dp='docker ps'
 alias dpa='docker ps -a'
